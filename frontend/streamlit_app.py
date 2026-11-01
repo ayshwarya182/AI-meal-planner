@@ -118,7 +118,7 @@ with col2:
 with col3:
     preference = st.selectbox(
         "Food Preference",
-        ["Veg", "Non-Veg", "Both"]
+        ["Veg", "Non-Veg",]
     )
 
 
