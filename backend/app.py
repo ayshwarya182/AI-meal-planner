@@ -134,16 +134,9 @@ def get_food_lists(preference):
     if preference == "Non-Veg":
         return NONVEG_BREAKFAST, NONVEG_LUNCH, NONVEG_DINNER
 
-    if preference == "Both":
-        return (
-            VEG_BREAKFAST + NONVEG_BREAKFAST,
-            VEG_LUNCH + NONVEG_LUNCH,
-            VEG_DINNER + NONVEG_DINNER
-        )
-
     raise HTTPException(
         status_code=400,
-        detail="Choose Veg, Non-Veg or Both."
+        detail="Choose Veg, Non-Veg "
     )
 
 
