@@ -18,7 +18,7 @@ st.set_page_config(
 # BACKEND URL
 # =====================================================
 
- BACKEND_URL = "https://ai-meal-planner-2-6xi2.onrender.com"
+ BACKEND_URL = "https://ai-meal-planner-3-8qlb.onrender.com"
 
 
 # =====================================================
